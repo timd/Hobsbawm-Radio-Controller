@@ -1,0 +1,19 @@
+  Hobsbawm Radio Controller Mk 1
+
+  Arduino-to-DAB radio interface
+  
+  This code controls a hacked Lava DAB radio.  A single
+  pushbutton is connected to the Arduino circuit to 
+  control the power on / channel change / power off
+  behaviour though a series of single button pushes.
+  
+  First push - powers radio on from standby mode
+  Second push - toggles to station preset 2
+  Third push - toggles to station preset 3
+  Fourth push - powers radio off to standby mode
+
+
+  Code based on original code by Tom Igoe
+  http://arduino.cc/en/Tutorial/ButtonStateChange
+
+  v 3.1 23/10/2010
